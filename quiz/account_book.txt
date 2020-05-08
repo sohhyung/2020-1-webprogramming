@@ -1,0 +1,2 @@
+음료수 판매 기록
+coffee 5개 판매 완료. total income 2500
