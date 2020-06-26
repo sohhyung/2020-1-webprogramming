@@ -1,0 +1,48 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <%= stylesheet_link_tag "profile", media: "all" %>
+    <style>
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+  <h2><strong>ACTIVITIES</strong></h2>
+    <form id="button">
+      <button type="button" formtarget="_self"><%= link_to "Profile",'/profile' %></button>
+      <button type="button" formtarget="_self"><%= link_to "Design","Design" %></button>
+    </form>
+
+  <div class="Internships">
+    <h4>Internships</h4>
+
+    <ul>
+      <li> 서울대학교 공과대학 MI LAB(2019.1~2019.12) </li>
+      <li> 서울대학교 융합과학기술대학원 HCC LAB(2020.1~2020.2) </li>
+    </ul>
+    </div>
+    <div class="Projects">
+      <h4>Projects</h4>
+      <h5>- ML</h5>
+      <ul>
+        <li> PEI 수치 예측 모델링 (2017 데이터마이닝 term project) </li>
+        <li> 노래 장르 classification (2019 정보모델링 기법 및 응용 project2, NLP) </li>
+        <li> Friends 대사 sentiment analysis (NLP)</li>
+        <li> 악플의 기사의 밤 - 연예인의 SNS를 주제로 작성한 기사의 sentiment analysis (2019 데이터 저널리즘 term project, NLP) </li>
+        <li> ECG classification (Andrew ng 모델 기반) </li>
+      </ul>
+      <h5>- Others</h5>
+      <ul>
+        <li> ISC TV는 맛있다(2017 미디어와 스토리텔링 term project) </li>
+        <li> IE 영화관 어플리케이션 어플 과업 최적화 (2018 인간공학실험 term project) </li>
+        <li> ISC 정보문화학과 졸업사정 챗봇 (2019 HCI 이론 및 실습 term project)</li>
+        <li> ISC The State of Art of OTT (2019 인터넷과 지식기술 term project)</li>
+        <li> ISC 공리주의 (2019 산학연구실습 - pivoting)</li>
+        <li> ISC 빵트라슈 (2019 산학연구실습 term project)</li>
+        <li> IE Design Heuristics Sets for Longer Longevity (2019 공학도의 창의적인 사고 term project) </li>
+      </ul>
+      </div>
+</body>

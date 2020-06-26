@@ -1,0 +1,86 @@
+/* This is a comment in CSS */
+
+body {
+	background-color: #E5E5DA;
+}
+
+h2 {
+	background-color: #07276A;
+  color : #E5E5DA;
+	font-family: BinggraeMelona;
+  font-size: 45px;
+}
+h3{
+  color : #000000;
+  font-family: BinggraeMelona;
+  font-size: 30px;
+}
+
+h4 {
+  background-color: #274A86;
+  color: #E5E5DA;
+  font-family: BinggraeMelona;
+  font-size: 30px;
+
+}
+h5{
+  color:#375E99;
+  font-family : BinggraeMelona;
+  font-size: 25px;
+
+}
+table{
+  background-color: #CFCFC3;
+  width: 100%;
+  border: 1.5px dashed #8F8F81;
+
+}
+.pic{
+	width: 30%;
+}
+button{
+  background-color:#375E99 ;
+  font-size: 20px;
+  font-family: BinggraeMelona;
+
+
+}
+form#button a {
+  text-decoration:none;
+  color:#ffffff;
+  font-family: BinggraeMelona;
+
+
+}
+
+li#ig_link a {
+  text-decoration: underline;
+  color : #193A78;
+  font-family: BinggraeMelona;
+  font-style: oblique;
+  font-size: 20px;
+}
+
+ul{
+  list-style-type: square;
+  text-decoration: none;
+  font-family: NanumSquareOTF;
+  color:#000000;
+  font-size: 23px;
+
+}
+
+ol{
+  text-decoration: none;
+  font-family: NanumSquareOTF;
+  color:#000000;
+  font-size: 20px;
+
+}
+
+
+div#summary{
+  font-family: NanumSquareOTF;
+  color:#000000;
+  font-size:20px;
+}
